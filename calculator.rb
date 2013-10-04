@@ -22,7 +22,7 @@ case response
 	when "4"
 		answer = num1.to_i / num2.to_i
 	else
-		says "#{response} isn't a valid answer"
+		says "#{response} isn't a valid answer!"
 end	
 
 says "The answer is #{answer}" unless answer.nil?
