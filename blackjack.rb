@@ -35,8 +35,9 @@ end
 puts "Welcome to Blackjack"
 puts "What is your name?"
 name = gets.chomp
-puts "Ok, #{name} lets deal!"
 name.capitalize!
+puts "Ok, #{name} lets deal!"
+
 # => Create Deck
 
 suit = ['Hearts', 'Diamonds', 'Spades', 'Clubs']
